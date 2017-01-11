@@ -1,0 +1,52 @@
+body{
+  margin:0;
+  padding:0;
+}
+.fixedfone div{
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  overflow: hidden;
+}
+.fixedfone div img{
+  position: absolute;
+  width:140%;
+  height:auto;
+}
+.fone1{
+  left: 0;
+  top: 0;
+}
+.fone2{
+  right: 0;
+  top: 0;
+
+}
+.fone3{
+  left: 0;
+  bottom: 0;
+}
+.fixedfone .fone1 img{
+  bottom:0;
+  right: 0%;
+
+}
+.fixedfone .fone2 img{
+  bottom:0;
+  left:0;
+}
+.fixedfone .fone3 img{
+  top:0;
+  right:  0%;
+}
+.fixedfone .fone4 img{
+  top:0;
+  left: 0;
+}
+.fone4{
+  right: 0;
+  bottom: 0;
+}
+.absblack{
+  background: rgba(0,0,0,0.6);
+}
